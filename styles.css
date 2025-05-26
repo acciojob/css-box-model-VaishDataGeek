@@ -1,2 +1,68 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
 
-/* Your CSS Code here. */
+.outer {
+  margin: 20px;
+  position: relative;
+}
+
+.border-box {
+  border: 15px solid blue;
+  background-color: blueviolet;
+  position: relative;
+}
+
+.padding-box {
+  background-color: lightblue;
+  padding: 50px;
+  position: relative;
+}
+
+.content-box {
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.text {
+  margin: 0;
+  white-space: pre-wrap;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.margin {
+  top: -20px;
+  left: 0;
+}
+
+.border {
+  top: -20px;
+  left: 20px;
+  color: darkblue;
+}
+
+.padding {
+  top: 10px;
+  left: 20px;
+  color: green;
+}
+
+.color {
+  top: 10px;
+  right: 20px;
+  color: darkcyan;
+}
+
+.width {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+}
